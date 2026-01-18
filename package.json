@@ -1,0 +1,54 @@
+{
+    "name": "@hassib-ashouri/n8n-nodes-shortids",
+    "version": "0.1.0",
+    "description": "This is a node to generate url friendly and short uuids. This is useful when creating short urls. It is based on nonoid library.",
+    "license": "MIT",
+    "homepage": "https://github.com/hassib-ashouri/n8n-nodes-shortids#readme",
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "Hassib Ashouri",
+        "email":"hassib.carbon492@slmails.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hassib-ashouri/n8n-nodes-shortids.git"
+    },
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "nodes": [
+            "dist/nodes/ShortIds/ShortIds.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "*",
+        "eslint": "9.32.0",
+        "prettier": "3.6.2",
+        "release-it": "^19.0.4",
+        "typescript": "5.9.2"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    },
+    "dependencies": {
+        "nanoid": "^5.1.6"
+    },
+    "main": "./nodes/ShortIds/ShortIds.node.ts",
+    "bugs": {
+        "url": "https://github.com/hassib-ashouri/n8n-nodes-shortids/issues"
+    }
+}
