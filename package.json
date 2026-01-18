@@ -50,5 +50,8 @@
     "main": "./nodes/ShortIds/ShortIds.node.ts",
     "bugs": {
         "url": "https://github.com/hassib-ashouri/n8n-nodes-shortids/issues"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
