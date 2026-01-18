@@ -1,6 +1,6 @@
 {
     "name": "@hassib-ashouri/n8n-nodes-shortids",
-    "version": "0.1.0",
+    "version": "0.3.0",
     "description": "This is a node to generate url friendly and short uuids. This is useful when creating short urls. It is based on nonoid library.",
     "license": "MIT",
     "homepage": "https://github.com/hassib-ashouri/n8n-nodes-shortids#readme",
